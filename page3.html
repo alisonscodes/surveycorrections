@@ -10,7 +10,7 @@
 <style>
 
 table, th {
-margin-top: 40px;
+margin-top: 30px;
 }
 
 a {
@@ -74,7 +74,7 @@ input[type="checkbox"]:checked ~ .showifactive {
   opacity: 1;
   max-height: 100px;
   overflow: visible;
-  padding: 10px 10px 50px 10px;
+  padding: 10px 10px 70px 10px;
   transform: scale(1);
 }
 
@@ -93,7 +93,7 @@ input[type="checkbox"]:checked ~ .sia {
   opacity: 1;
   max-height: 100px;
   overflow: visible;
-  padding: 10px 10px 50px 10px;
+  padding: 10px 10px 70px 10px;
   transform: scale(1);
 }
 
@@ -112,6 +112,10 @@ padding: 10px;
 margin-left:20px;
 }
 
+i {
+color: #999;
+}
+
 </style>
 
 </head>
@@ -122,12 +126,12 @@ margin-left:20px;
 <table width="90%" style="margin-left:100px">
     <tr>
     	<td>
-        5. Have you heard of the Tinder mobile app?<br /><br /><br />
+        5. Have you heard of the Tinder mobile app? <i>Select one.</i><br /><br /><br />
         <input type="radio" name="ans" id="margin1">
 <label for="ans">Yes</label><br /><br />
 
 <div class="reveal-if-active">
-        &#8627 Where did you hear about Tinder for the first time?<br /><br />
+        &#8627 Where did you hear about Tinder for the first time? <i>Select all that apply.</i><br /><br />
   <input type="checkbox" name="box" /> Word-of-mouth
   <input type="checkbox" name="box" id="box" /> Social Media
   <input type="checkbox" name="box" id="box" /> Television
@@ -138,7 +142,7 @@ margin-left:20px;
   		</div>
   		
         <div class="showifactive">
-        &#8627 <table style="border-collapse:collapse;border:1px solid #999;margin:-10px 0px 10px 15px"">
+        &#8627 <i>Select one for each row.</i> <table style="border-collapse:collapse;border:1px solid #999;margin:10px 0px 10px 15px"">
 	<tr>
     	<th></th>
     	<th>Excellent</th>
@@ -191,7 +195,7 @@ margin-left:20px;
     </div>
     
     <div class="sia">
-        &#8627 <table style="border-collapse:collapse;border:1px solid #999;margin:-10px 0px 10px 15px"">
+        &#8627 <i>Select one for each row.</i> <table style="border-collapse:collapse;border:1px solid #999;margin:10px 0px 10px 15px"">
 	<tr>
     	<th></th>
     	<th>Strongly agree</th>
